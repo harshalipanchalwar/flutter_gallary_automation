@@ -23,6 +23,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import static io.appium.java_client.touch.WaitOptions.waitOptions;
+import static java.time.Duration.ofMillis;
 import static java.time.Duration.ofSeconds;
 
 public class ShrineHomeScreen extends BaseClass {
@@ -47,40 +49,26 @@ public class ShrineHomeScreen extends BaseClass {
     }
 
     public void addFirstShirt() throws InterruptedException {
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         System.out.println(driver.getPageSource());
-        List<MobileElement> listElement = (List<MobileElement>) driver.findElements(By.className("android.widget.Button"));
+       List<MobileElement> listElement = (List<MobileElement>) driver.findElements(By.className("android.widget.Button"));
         for (int i = 0; i < listElement.size(); i++) {
             if (listElement.get(i).getAttribute("contentDescription").contains("Sea Tunic")) {
                 listElement.get(i).click();
 
             }
-//            Thread.sleep(5000);
-//        }
-            //driver.findElement(By.xpath(shrineHomeScreenLocators.shirt)).click();
-//        driver.findElement(By.xpath(shrineHomeScreenLocators.shirt)).click();
-            //driver.findElementByAndroidUIAutomator("UiSelector().description(Plaster tunic\\n$38, Add to cart)").click();
-
+          Thread.sleep(5000);
         }
     }
 
 
-        public void swipeRight () {
-            List<MobileElement> e=driver.findElements(By.className("android.widget.Button"));
-            MobileElement firdelement=e.get(0);
-            MobileElement secondElement=e.get(1);
-            MobileElement thirdElement=e.get(2);
-
-            int midOfY =thirdElement.getLocation().y +(thirdElement.getSize().height/2);
-            int fromXLocation=thirdElement.getLocation().x;
-            int toXLocation=firdelement.getLocation().x;
-
-            TouchAction  action =new TouchAction(driver);
-            action.press(PointOption.point(fromXLocation, midOfY))
-                    .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(3)))
-                    .moveTo(PointOption.point(toXLocation, midOfY))
-                    .release()
-                    .perform();
+        public void swipeRightTillWalterHenryShirt () {
+            TouchAction touchAction = new TouchAction(driver);
+            touchAction.press(PointOption.point(972, 600)).waitAction(waitOptions(ofMillis(800))).
+                    moveTo(PointOption.point(108, 600)).release().perform();
+            System.out.println("Swipe successfull");
+            touchAction.press(PointOption.point(972, 600)).waitAction(waitOptions(ofMillis(800))).
+                    moveTo(PointOption.point(108, 600)).release().perform();
+            System.out.println("Swipe successfull");
 
         }
 

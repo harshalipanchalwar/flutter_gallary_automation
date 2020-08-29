@@ -6,6 +6,8 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Reporter;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
@@ -24,14 +26,14 @@ public class BaseClass {
     String destDir;
     DateFormat dateFormat;
 
-        @BeforeSuite
+    @BeforeSuite
     public static void startServer() {
         Runtime runtime = Runtime.getRuntime();
 
         try {
             runtime.exec("cmd.exe /c start cmd.exe /k \"appium -a 127.0.0.1 -p 4723 --session-override -dc \"{\"\"noReset\"\": \"\"false\"\"}\"\"");
             Thread.sleep(10000L);
-            driver=setupAppium();
+            driver = setupAppium();
         } catch (InterruptedException | IOException var3) {
             var3.printStackTrace();
         }
@@ -56,7 +58,7 @@ public class BaseClass {
         driver = new AndroidDriver<MobileElement>(url, capabilities);
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
         return driver;
-       }
+    }
 
     public void takeScreenShot() {
         // Set folder name to store screenshots.
@@ -77,8 +79,23 @@ public class BaseClass {
             e.printStackTrace();
         }
     }
-//    @AfterSuite
-//    public void uninstallApp() throws InterruptedException {
-//        driver.removeApp("com.example.android.contactmanager");
-//    }
+
+    //    @AfterSuite
+    @AfterSuite
+    public void stopServer() {
+
+        closeAppiumDriver();
+        try {
+            Runtime.getRuntime().exec("taskkill /F /IM node.exe");
+            Runtime.getRuntime().exec("taskkill /F /IM cmd.exe");
+        } catch (IOException e) {
+            Reporter.log(e.getMessage());
+        }
+    }
+
+    public void closeAppiumDriver() {
+        driver.closeApp();
+        driver.quit();
+    }
 }
+

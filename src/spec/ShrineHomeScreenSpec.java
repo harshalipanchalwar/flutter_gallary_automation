@@ -30,4 +30,10 @@ public class ShrineHomeScreenSpec extends BaseClass {
         shrineHomeScreen.addFirstShirt();
         takeScreenShot();
     }
+
+    @Test(dependsOnMethods = "addFirstShirt")
+    public void addWalterHenryShirt() throws InterruptedException {
+        shrineHomeScreen.swipeRightTillWalterHenryShirt();
+        takeScreenShot();
+    }
 }
