@@ -63,11 +63,14 @@ public class ShrineHomeScreen extends BaseClass {
 
         public void swipeRightTillWalterHenryShirt () {
             TouchAction touchAction = new TouchAction(driver);
-            touchAction.press(PointOption.point(972, 600)).waitAction(waitOptions(ofMillis(800))).
-                    moveTo(PointOption.point(108, 600)).release().perform();
+            touchAction.press(PointOption.point(980, 600)).waitAction(waitOptions(ofMillis(1000))).
+                    moveTo(PointOption.point(115, 600)).release().perform();
             System.out.println("Swipe successfull");
-            touchAction.press(PointOption.point(972, 600)).waitAction(waitOptions(ofMillis(800))).
-                    moveTo(PointOption.point(108, 600)).release().perform();
+            touchAction.press(PointOption.point(980, 600)).waitAction(waitOptions(ofMillis(1000))).
+                    moveTo(PointOption.point(115, 600)).release().perform();
+            System.out.println("Swipe successfull");
+            touchAction.press(PointOption.point(980, 600)).waitAction(waitOptions(ofMillis(1000))).
+                    moveTo(PointOption.point(115, 600)).release().perform();
             System.out.println("Swipe successfull");
 
         }

@@ -21,8 +21,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Projects/JARS/commons-lang3-3.11.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-output" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -53,9 +53,20 @@
       </method>
     </configuration>
     <configuration name="C:/GallaryAutomation/execution.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="GallaryAutomation" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/execution.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="C:\GallaryAutomation\test-output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -90,6 +101,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1598634531421" />
+    <state x="233" y="0" key="#Project_Structure" timestamp="1598702858699">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1598702858699" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598703414674">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598703414674" />
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1598647226378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -110,58 +129,62 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598622864482" />
-    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1598677150225">
+    <state width="428" height="466" key="DebuggerActiveHint" timestamp="1598691534727">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="428" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1598677150224" />
+    <state width="428" height="466" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1598691534727" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1598647226378">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1598647226378" />
-    <state x="71" y="63" key="FileChooserDialogImpl" timestamp="1598631997469">
+    <state x="71" y="63" key="FileChooserDialogImpl" timestamp="1598703367592">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="71" y="63" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598631997469" />
-    <state width="1259" height="429" key="GridCell.Tab.0.bottom" timestamp="1598684256267">
+    <state x="71" y="63" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598703367592" />
+    <state width="1259" height="429" key="GridCell.Tab.0.bottom" timestamp="1598704231891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="429" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598684256267" />
-    <state width="1259" height="429" key="GridCell.Tab.0.center" timestamp="1598684256267">
+    <state width="1259" height="429" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598704231891" />
+    <state width="1259" height="429" key="GridCell.Tab.0.center" timestamp="1598704231891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="429" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598684256267" />
-    <state width="1259" height="429" key="GridCell.Tab.0.left" timestamp="1598684256267">
+    <state width="1259" height="429" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598704231891" />
+    <state width="1259" height="429" key="GridCell.Tab.0.left" timestamp="1598704231890">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="429" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598684256267" />
-    <state width="1259" height="429" key="GridCell.Tab.0.right" timestamp="1598684256267">
+    <state width="1259" height="429" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598704231890" />
+    <state width="1259" height="429" key="GridCell.Tab.0.right" timestamp="1598704231891">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="429" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598684256267" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1598681023106">
+    <state width="1259" height="429" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598704231891" />
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1598702936796">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598681023106" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1598681023106">
+    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598702936796" />
+    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1598702936796">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598681023106" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1598681023106">
+    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598702936796" />
+    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1598702936796">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598681023106" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1598681023106">
+    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598702936796" />
+    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1598702936796">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598681023106" />
-    <state x="121" y="0" key="SettingsEditor" timestamp="1598632027452">
+    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598702936796" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1598702178037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598632027452" />
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598702178037" />
     <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1598677079073">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1598677079073" />
+    <state x="461" y="168" key="export.test.results" timestamp="1598704224741">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="461" y="168" key="export.test.results/0.0.1280.680@0.0.1280.680" timestamp="1598704224741" />
     <state x="326" y="0" key="new project wizard" timestamp="1598641729638">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -174,31 +197,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598684816991" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pages/ShrineHomeScreen.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pages/ShrineHomeScreen.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pages/ShrineHomeScreen.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/pages/ShrineHomeScreen.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

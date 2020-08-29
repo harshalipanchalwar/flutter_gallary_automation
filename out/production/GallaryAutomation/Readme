@@ -9,7 +9,8 @@ To Run the script:
 5. Run the file 'execution.xml'
 
 ############################
-Unable to complete the assignment since no unique locator is available on the clothes and accessories page
-Tried clicking the first elemet but the same is not click able
-The search icon and filters are not working in order to locate the specific shirt
+Unable to complete the assignment due to following
+1. No specific locator is present for shirt and accessories items
+2. When we are trying to select element the entire page is getting selected
+3. The search icon and filters are not working in order to locate the specific shirt
 */
