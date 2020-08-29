@@ -1,0 +1,15 @@
+/*
+Developed a Page Object Model to automate the Gallery Application.
+Locators and the Elements definition are defined separately in different files for better readability.
+To Run the script:
+1. Install Node, Appium.
+2. Use either intellij or eclipse.
+3. Add selenium  java appium client, mockito, commons-io, commoms-lang2-2.11,hamcrest,guice jar's
+4. If using an emulator, then please update the platformVersion and launch the emulator first. Make sure that the application is installed in the emulator.
+5. Run the file 'execution.xml'
+
+############################
+Unable to complete the assignment since no unique locator is available on the clothes and accessories page
+Tried clicking the first elemet but the same is not click able
+The search icon and filters are not working in order to locate the specific shirt
+*/
